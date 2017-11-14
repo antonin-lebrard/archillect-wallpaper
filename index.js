@@ -124,3 +124,5 @@ function wholeTask(isBehindProxy = false) {
 
 // archillect post one image each 10 minutes, no need to re-fetch it
 setInterval(wholeTask, 10 * 60 * 60 * 1000); // 10 minutes
+// launch at least one time to not wait first 10 minutes
+wholeTask();
