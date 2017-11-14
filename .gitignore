@@ -1,0 +1,9 @@
+# Files and directories created by npm
+package.json.lock
+node_modules/*
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
