@@ -3,6 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "wallpaper": "~2.5.0"
+    "wallpaper": "https://github.com/antonin-lebrard/wallpaper.git"
   }
 }
